@@ -1,0 +1,47 @@
+p {
+    text-align: justify;
+    text-justify: distribute;
+}
+
+.sticky-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #79AF9B;
+    color: black;
+    position: sticky;
+    top: 5rem;
+}
+
+.img-left {
+    width: 25%;
+    margin: 5px 30px 5px 5px;
+    float: left;
+}
+
+.img-right {
+    width: 25%;
+    margin: 5px 5px 5px 30px;
+    float: right;
+}
+
+.bg-image {
+    position: sticky;
+    top: 5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.main-container div {
+    background-color: white;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}

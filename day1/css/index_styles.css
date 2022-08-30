@@ -1,0 +1,50 @@
+.features > .col-md-4 > .card {
+    background-color: #FCF8FF;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    z-index: 1;
+}
+
+.card-footer {
+    background-color: #ffffff;
+    border: white;
+    color: black;
+}
+
+.card-footer > span {
+    color: #9C9C9C;
+    font-size: 0.7rem;
+}
+
+.progress {
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.progress-bar {
+    background-color: #79AF9B;
+}
+
+.logo {
+    width: 25%;
+    max-width: 150px;
+    margin: auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: darkgreen;
+}
+
+.swiper-pagination-bullet {
+    left: 32px;
+    background-color: darkgreen;
+}

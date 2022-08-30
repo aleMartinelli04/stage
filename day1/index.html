@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Stage 1</title>
 
+    <!-- Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
@@ -11,7 +12,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/97de4ea36d.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link href="css/common_styles.css" type="text/css" rel="stylesheet">
+    <link href="css/navbar_footer.css" type="text/css" rel="stylesheet">
+    <link href="css/index_styles.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,13 +48,13 @@
 <!-- Title -->
 <div class="container space-top-m">
     <div class="row align-items-center">
-        <div class="col-sm-7">
+        <div class="col-12 col-md-7">
             <h1>Build.</h1>
             <h1>Create.</h1>
             <h1>Launch.</h1>
         </div>
 
-        <div class="col-sm-5">
+        <div class="col-12 col-md-5">
             <img src="resources/title.png" alt="">
         </div>
     </div>
@@ -64,35 +76,36 @@
     </div>
 </div>
 
-<!-- Work With -->
+<!-- Worked With -->
 <div class="container space-top-m">
     <div class="work-with">
-        <h4>We worked with the world's biggest brands and the most innovative startups
+        <h4>
+            We worked with the world's biggest brands and the most innovative startups
             <div class="row space-top-sm">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-2">
+                <div class="col-12 col-md-2"></div>
+                <div class="col-12 col-md-3">
                     <i class="fas fa-mountain"></i> ICEBERG
                 </div>
-                <div class="col-sm-2">
+                <div class="col-12 col-md-2">
                     <i class="fas fa-moon"></i> vision
                 </div>
-                <div class="col-sm-2">
+                <div class="col-12 col-md-3">
                     <i class="fas fa-home"></i> Homey
                 </div>
-                <div class="col-sm-3"></div>
+                <div class="col-12 col-md-2"></div>
             </div>
             <div class="row space-top-sm">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-2">
+                <div class="col-12 col-md-2"></div>
+                <div class="col-12 col-md">
                     <i class="fas fa-fist-raised"></i> Rise
                 </div>
-                <div class="col-sm-2">
+                <div class="col-12 col-md">
                     <i class="fas fa-bullseye"></i> PinPoint
                 </div>
-                <div class="col-sm-2">
+                <div class="col-12 col-md">
                     <i class="fas fa-book"></i> Ebooks
                 </div>
-                <div class="col-sm-3"></div>
+                <div class="col-12 col-md-2"></div>
             </div>
         </h4>
     </div>
@@ -101,11 +114,11 @@
 <!-- About Us -->
 <div class="container space-top-l">
     <div class="row align-items-center">
-        <div class="col-sm-5">
+        <div class="col-12 col-lg-5 my-4 my-lg-0">
             <img src="resources/who_we_are.png">
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-6">
+        <div class="col-12 col-lg-1"></div>
+        <div class="col-12 col-lg-6">
             <h5 style="float: left">ABOUT US</h5>
             <br>
             <h3>Who We Are</h3>
@@ -130,7 +143,7 @@
     <h5 class="text-align-center">MAIN FEATURES</h5>
     <h4>Put the spotlight on the main features</h4>
     <div class="row space-top-sm features">
-        <div class="col-sm-4">
+        <div class="col-12 col-md-4 p-4">
             <div class="card">
                 <div class="card-img-top">
                     <img src="resources/spotlight_app.png" alt="">
@@ -143,7 +156,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-12 col-md-4 p-4">
             <div class="card">
                 <div class="card-img-top">
                     <img src="resources/spotlight_design.png" alt="">
@@ -156,7 +169,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-12 col-md-4 p-4">
             <div class="card">
                 <div class="card-img-top">
                     <img src="resources/spotlight_marketing.png" alt="">
@@ -183,19 +196,18 @@
 
     <div class="container-fluid" style="width: 80%; margin: auto">
         <div class="row space-top-sm">
-            <div class="col-sm-6">
+            <div class="col-12 col-md-6 my-sm-3">
                 <img src="resources/ideas_1.png" alt="">
             </div>
-            <div class="col-sm-6">
+            <div class="col-12 col-md-6 my-sm-3">
                 <img src="resources/ideas_2.png" alt="">
             </div>
         </div>
-        <br>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-12 col-md-6 my-sm-3">
                 <img src="resources/ideas_3.png" alt="">
             </div>
-            <div class="col-sm-6">
+            <div class="col-12 col-md-6 my-sm-3">
                 <img src="resources/ideas_4.png" alt="">
             </div>
         </div>
@@ -206,38 +218,134 @@
 <div class="container space-top-m text-align-center">
     <h5>TESTIMONIALS</h5>
     <h3>What They Think</h3>
-    <div class="space-top-sm">
-        <div class="row align-items-center">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-1">
-                <i class="fas fa-chevron-circle-left"></i>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-img-top">
-                            <img src="resources/what_they_think.png" alt="" class="rounded logo">
+    <div class="row align-items-center mt-2">
+        <!-- Swiper -->
+        <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+            <div class="swiper-wrapper" aria-live="polite">
+                <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
+                    <div class="align-items-center">
+                        <img src="resources/what_they_think.png" alt="" class="rounded logo">
+
+                        <div style="width: 70%; margin: auto;">
+                            <h4>
+                                "Since switching to Webflow, I feel so much more confident about our brand's overall
+                                presentation."
+                            </h4>
+                            <b>John Doe</b><span>, Webflow</span>
                         </div>
-                        <h4 class="card-text">
-                            "Since switching to WebFlow, I feel so much more confident about
-                            our brand's overall presentation."
-                        </h4>
-                        <p class="card-footer"><b style="col-smor: black">John Doe</b>, Webflow</p>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
+                    <div class="align-items-center">
+                        <img src="resources/what_they_think.png" alt="" class="rounded logo">
+
+                        <div style="width: 70%; margin: auto;">
+                            <h4>
+                                "Since switching to Webflow, I feel so much more confident about our brand's overall
+                                presentation."
+                            </h4>
+                            <b>John Doe</b><span>, Webflow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
+                    <div class="align-items-center">
+                        <img src="resources/what_they_think.png" alt="" class="rounded logo">
+
+                        <div style="width: 70%; margin: auto;">
+                            <h4>
+                                "Since switching to Webflow, I feel so much more confident about our brand's overall
+                                presentation."
+                            </h4>
+                            <b>John Doe</b><span>, Webflow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
+                    <div class="align-items-center">
+                        <img src="resources/what_they_think.png" alt="" class="rounded logo">
+
+                        <div style="width: 70%; margin: auto;">
+                            <h4>
+                                "Since switching to Webflow, I feel so much more confident about our brand's overall
+                                presentation."
+                            </h4>
+                            <b>John Doe</b><span>, Webflow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
+                    <div class="align-items-center">
+                        <img src="resources/what_they_think.png" alt="" class="rounded logo">
+
+                        <div style="width: 70%; margin: auto;">
+                            <h4>
+                                "Since switching to Webflow, I feel so much more confident about our brand's overall
+                                presentation."
+                            </h4>
+                            <b>John Doe</b><span>, Webflow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
+                    <div class="align-items-center">
+                        <img src="resources/what_they_think.png" alt="" class="rounded logo">
+
+                        <div style="width: 70%; margin: auto;">
+                            <h4>
+                                "Since switching to Webflow, I feel so much more confident about our brand's overall
+                                presentation."
+                            </h4>
+                            <b>John Doe</b><span>, Webflow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
+                    <div class="align-items-center">
+                        <img src="resources/what_they_think.png" alt="" class="rounded logo">
+
+                        <div style="width: 70%; margin: auto;">
+                            <h4>
+                                "Since switching to Webflow, I feel so much more confident about our brand's overall
+                                presentation."
+                            </h4>
+                            <b>John Doe</b><span>, Webflow</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-1">
-                <i class="fas fa-chevron-circle-right"></i>
-            </div>
-            <div class="col-sm-2"></div>
+
+            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                 aria-controls="swiper-wrapper-04cca01b95d39085" aria-disabled="false"></div>
+            <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button"
+                 aria-label="Previous slide" aria-controls="swiper-wrapper-04cca01b95d39085" aria-disabled="true"></div>
+
+            <br><br>
+
+            <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic"
+                 style="width: 80px;"></div>
         </div>
+
+        <!-- Initialize Swiper -->
+        <script>
+            new Swiper(".mySwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: true,
+                },
+            });
+        </script>
     </div>
 </div>
 
 <!-- What We Do -->
-<div class="container space-top-m">
+<div class="container my-5">
     <div class="row align-items-center">
-        <div class="col-sm-5">
+        <div class="col-12 col-md-5">
             <h5>WHAT WE DO</h5>
             <h3>Our Skills</h3>
 
@@ -264,8 +372,8 @@
             <br><br>
             <a href="#">JOIN US TODAY</a>
         </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-5 align-items-center">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-5 py-0 my-sm-5">
             <img src="resources/our_skills.png" alt="">
         </div>
     </div>
@@ -277,45 +385,77 @@
     <h3>Latest News</h3>
     <a href="#" style="float: right">VIEW ALL POST</a>
 
-    <div class="row space-top-sm">
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-img-top">
-                    <img src="resources/news_workplace.png" alt="">
-                </div>
-                <div class="card-body">
-                    <button type="button" class="btn badge-button">MARKETING</button>
-                    <br><br>
-                    <b>Curating a workplace that inspires all of us</b>
-                    <p class="card-footer">February 3, 2021</p>
-                </div>
+    <div class="swiper newsSwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+        <div class="swiper-wrapper" id="swiper-wrapper-c42f3048710806677" aria-live="polite">
+            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9"
+                 style="width: 293.3333333333333px; margin-right: 30px;">
+                <a href="news/workplace.html" class="text-decoration-none">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-5">
+                            <img src="resources/news_workplace.png" alt="">
+                        </div>
+                        <div class="col-12 col-md-7 p-md-5">
+                            <button type="button" class="btn badge-button">MARKETING</button>
+                            <br><br>
+                            <p class="card-footer">
+                                <b>Curating a workplace that inspires all of us</b>
+                                <br>
+                                <span>February 3, 2021</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9"
+                 style="width: 293.3333333333333px; margin-right: 30px;">
+                <a href="news/designer.html" class="text-decoration-none">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-5">
+                            <img src="resources/news_designer.png" alt="">
+                        </div>
+                        <div class="col-12 col-md-7 p-md-5">
+                            <button type="button" class="btn badge-button">DESIGN</button>
+                            <br><br>
+                            <p class="card-footer">
+                                <b>Designers who changed the web with Webflow</b>
+                                <br>
+                                <span>February 25, 2021</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide" role="group" style="width: 293.3333333333333px; margin-right: 30px;">
+                <a href="news/communication.html" class="text-decoration-none">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-5">
+                            <img src="resources/news_communication.png" alt="">
+                        </div>
+                        <div class="col-12 col-md-7 p-md-5">
+                            <button type="button" class="btn badge-button">CODE</button>
+                            <br><br>
+                            <p class="card-footer">
+                                <b>Communication between studio departements</b>
+                                <br>
+                                <span>March 9, 2021</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
-
-        <div class="col-sm-4">
-            <div class="card-img-top">
-                <img src="resources/news_designer.png" alt="">
-            </div>
-            <div class="card-body">
-                <button type="button" class="btn badge-button">DESIGN</button>
-                <br><br>
-                <b>Designers who changed the web with Webflow</b>
-                <p class="card-footer">February 25, 2021</p>
-            </div>
-        </div>
-
-        <div class="col-sm-4">
-            <div class="card-img-top">
-                <img src="resources/news_communication.png" alt="">
-            </div>
-            <div class="card-body">
-                <button type="button" class="btn badge-button">CODE</button>
-                <br><br>
-                <b>Communication between studio departements</b>
-                <p class="card-footer">March 9, 2021</p>
-            </div>
-        </div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
+    <script>
+        new Swiper(".newsSwiper", {
+            loop: true,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false
+            }
+        });
+    </script>
 </div>
 
 <!-- Stay In Touch -->
@@ -334,15 +474,15 @@
             <i class="fab fa-creative-commons-zero"></i>
         </div>
         <div class="mr-auto col-10 icon-list">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin-in"></i>
-                <i class="fas fa-basketball-ball"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fas fa-basketball-ball"></i>
         </div>
     </div>
     <div class="row space-top-sm">
-        <div class="col-sm-3">
+        <div class="col-6 col-md-3">
             <b>Address</b>
             <br><br>
             <p>
@@ -353,7 +493,7 @@
 
             <button class="btn badge-button end-button" type="button">Find on Map</button>
         </div>
-        <div class="col-sm-3">
+        <div class="col-6 col-md-3">
             <b>Contact</b>
             <br><br>
             <p>
@@ -361,8 +501,8 @@
                 E: contact@odger.com
             </p>
         </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
+        <div class="col-6 col-md-3"></div>
+        <div class="col-6 col-md-3 d-none d-md-block">
             <b>Sitemap
                 <br><br>
                 Intro<br>
@@ -379,6 +519,5 @@
     </p>
 </div>
 
-<script src="https://kit.fontawesome.com/97de4ea36d.js" crossorigin="anonymous"></script>
 </body>
 </html>
