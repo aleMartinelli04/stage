@@ -1,0 +1,24 @@
+.navbar-custom {
+    height: 5rem;
+    align-items: center;
+    display: flex;
+    border-bottom: #9C9C9C 1px solid;
+    width: 90%;
+    margin: auto;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.footer {
+    background-color: white;
+}
+
+.icon-list > i {
+    margin-left: 10px;
+    float: right;
+}
