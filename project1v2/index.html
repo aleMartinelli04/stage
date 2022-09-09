@@ -25,6 +25,9 @@
     <link href="../project1v2/css/navbar_footer.css" type="text/css" rel="stylesheet">
     <link href="../project1v2/css/index_styles.css" type="text/css" rel="stylesheet">
     <link href="../project1v2/css/video_bg.css" type="text/css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/parse_user.js"></script>
 </head>
 
 <body>
@@ -227,6 +230,7 @@
             <!-- Swiper -->
             <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                 <div class="swiper-wrapper" id="swiper" aria-live="polite">
+
                     <div class="swiper-slide swiper-slide-active" role="group" style="width: 880px;">
                         <div class="align-items-center">
                             <img src="../resources/project1/index/what_they_think.png" alt="" class="rounded logo">
@@ -240,6 +244,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
@@ -256,7 +261,7 @@
 
             <!-- Initialize Swiper -->
             <script>
-                new Swiper(".mySwiper", {
+                const swiper = new Swiper(".mySwiper", {
                     navigation: {
                         nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",
@@ -266,6 +271,17 @@
                         dynamicBullets: true,
                     },
                 });
+
+                for (let i = 0; i < 5; i++) {
+                    $.get({
+                        url: 'https://randomuser.me/api/',
+                        dataType: 'json',
+                    }).then(data => {
+                        const user = parseUser(data);
+
+                        swiper.appendSlide(user);
+                    })
+                }
             </script>
         </div>
     </div>
@@ -447,8 +463,5 @@
         </p>
     </div>
 </div>
-
-<script src="https://randomuser.me/api/?callback=processPersonData"></script>
-
 </body>
 </html>
